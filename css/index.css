@@ -13,7 +13,10 @@ h1 {
 }
 
 nav ul {
+	color: white;
+	font-size: 3em;
 	text-align: center;
+	vertical-align: middle;
 }
 
 nav ul li {
@@ -26,6 +29,16 @@ nav ul li {
 	height: 125px;
 }
 
-nav ul li:first {
-	background-image: url(einstein.jpg);
+nav ul li:first-child{
+	background-image: url("../img/einstein.jpg");
+	background-size: cover, auto;
 }
+nav ul li:nth-child(2){
+	background-image: url("../img/jobs.jpg");
+	background-size: cover;
+}
+nav ul li:nth-child(3){
+	background-image: url("../img/turing.jpg");
+	background-size: cover;
+}
+
