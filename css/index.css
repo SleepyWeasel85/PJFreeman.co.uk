@@ -22,4 +22,10 @@ nav ul li {
 	margin: 20px;
 	border: 1px solid black;
 	width: 200px;
+	border-radius: 10px;
+	height: 125px;
+}
+
+nav ul li:first {
+	background-image: url(einstein.jpg);
 }
