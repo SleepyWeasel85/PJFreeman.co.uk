@@ -11,6 +11,11 @@ body {
 h1 {
 	text-align: center;
 }
+h1 a {
+	text-decoration: none;
+	
+}
+
 
 nav ul {
 	color: white;
