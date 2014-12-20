@@ -11,38 +11,38 @@ body {
 h1 {
 	text-align: center;
 }
-h1 a {
+
+a {
 	text-decoration: none;
-	
 }
 
 
-nav ul {
+nav a {
 	color: white;
-	font-size: 3em;
 	text-align: center;
-	vertical-align: middle;
-}
-
-nav ul li {
+    vertical-align: middle;
 	display: inline-block;
 	padding: 20px;
 	margin: 20px;
-	border: 1px solid black;
 	width: 200px;
 	border-radius: 10px;
 	height: 125px;
 }
 
-nav ul li:first-child{
+nav #projects{
 	background-image: url("../img/einstein.jpg");
-	background-size: cover, auto;
+	background-size: cover;
+	overflow: hidden;
 }
-nav ul li:nth-child(2){
+nav #projects:hover{
+	background-image: url("../img/spaz.jpg");
+}
+
+nav #cv{
 	background-image: url("../img/jobs.jpg");
 	background-size: cover;
 }
-nav ul li:nth-child(3){
+nav #blog{
 	background-image: url("../img/turing.jpg");
 	background-size: cover;
 }
