@@ -1,0 +1,16 @@
+body#uri--index {
+	.m-nav {
+		#toggle-nav {
+			display: none;
+
+			~label {
+				display: none;
+			}
+		}
+
+		>ul {
+			display: block;
+			margin-top: 5rem;
+		}
+	}
+}
