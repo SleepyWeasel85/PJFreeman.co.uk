@@ -10,7 +10,15 @@ body#uri--index {
 
 		>ul {
 			display: block;
-			margin-top: 5rem;
 		}
+	}
+
+	>img#me {
+		display: block;
+		margin: 0 auto;
+		margin-top: 3rem;
+		width: 60%;
+		object-fit: contain;
+		border-radius: 100%;
 	}
 }
