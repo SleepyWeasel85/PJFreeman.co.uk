@@ -1,0 +1,24 @@
+body#uri--index {
+	.m-nav {
+		#toggle-nav {
+			display: none;
+
+			~label {
+				display: none;
+			}
+		}
+
+		>ul {
+			display: block;
+		}
+	}
+
+	>img#me {
+		display: block;
+		margin: 0 auto;
+		margin-top: 3rem;
+		width: 60%;
+		object-fit: contain;
+		border-radius: 100%;
+	}
+}
