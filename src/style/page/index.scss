@@ -13,12 +13,7 @@ body#uri--index {
 		}
 	}
 
-	>img#me {
-		display: block;
-		margin: 0 auto;
-		margin-top: 3rem;
-		width: 60%;
-		object-fit: contain;
-		border-radius: 100%;
-	}
+	background-image: url("/asset/face.jpg");
+	background-position: bottom center;
+	background-size: cover;
 }

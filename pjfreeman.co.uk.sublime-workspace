@@ -1,0 +1,359 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"latest",
+				"$latestOkPing〔variable〕"
+			],
+			[
+				"serrc",
+				"$siteErrorCount〔variable〕"
+			],
+			[
+				"ord",
+				"orderBy〔function〕"
+			],
+			[
+				"gr",
+				"groupBy〔function〕"
+			],
+			[
+				"sarray",
+				"$serverArray〔variable〕"
+			],
+			[
+				"curl_",
+				"curl_getinfo"
+			],
+			[
+				"insert",
+				"insert〔function〕"
+			],
+			[
+				"upd",
+				"updateOrInsert"
+			],
+			[
+				"get",
+				"getAsync〔function〕"
+			],
+			[
+				"de",
+				"delete〔function〕"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 89.0,
+		"last_filter": "project:save",
+		"selected_items":
+		[
+			[
+				"project:save",
+				"Project: Save As"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"close ",
+				"Project: Close"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"add.",
+				"Git: Add..."
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Channel"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"settings",
+				"Preferences: Settings - Default"
+			],
+			[
+				"vmen",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/g105b/Web/pjfreeman.co.uk"
+	],
+	"file_history":
+	[
+		"/home/g105b/Web/pingboard/src/page/index.php",
+		"/home/g105b/Web/pingboard/src/page/info.html",
+		"/home/g105b/Web/pingboard/src/style/page/info.scss",
+		"/home/g105b/Web/pingboard/src/style/variables.scss",
+		"/home/g105b/Web/pingboard/src/style/main.scss",
+		"/home/g105b/Web/pingboard/src/page/_header.html",
+		"/home/g105b/Web/pingboard/src/page/index.html",
+		"/home/g105b/Web/pingboard/src/page/_footer.html",
+		"/home/g105b/Web/pingboard/src/script/refresh.js",
+		"/home/g105b/Web/pingboard/src/style/module/card-list.scss",
+		"/home/g105b/Web/pingboard/db-config.php",
+		"/home/g105b/Web/pingboard/src/cron/update.php",
+		"/home/g105b/Web/pingboard/composer.json",
+		"/home/g105b/Web/pingboard/vendor/guzzlehttp/guzzle/src/RequestOptions.php",
+		"/home/g105b/.config/sublime-text-3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/home/g105b/.config/sublime-text-3/Packages/User/trailing_spaces.sublime-settings",
+		"/home/g105b/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/g105b/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/g105b/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/g105b/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 76.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ok",
+			"button",
+			"db",
+			"$db",
+			"ok",
+			"insert"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 76.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 216.0
+	},
+	"pinned_build_system": "",
+	"project": "pjfreeman.co.uk.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index.php",
+				"src/page/index.php"
+			],
+			[
+				"varia",
+				"src/style/variables.scss"
+			],
+			[
+				"info.html",
+				"src/page/info.html"
+			],
+			[
+				"index.html",
+				"src/page/index.html"
+			],
+			[
+				".scss",
+				"src/style/module/card-list.scss"
+			],
+			[
+				"indexhtml",
+				"src/page/index.html"
+			],
+			[
+				"update",
+				"src/cron/update.php"
+			],
+			[
+				"compjso",
+				"composer.json"
+			],
+			[
+				"guzzlehttprequestoptions",
+				"vendor/guzzlehttp/guzzle/src/RequestOptions.php"
+			],
+			[
+				"composejs",
+				"composer.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
